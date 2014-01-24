@@ -50,6 +50,7 @@ using System.Security;
 // by using the '*' as shown below:
 
 [assembly: AssemblyVersion("2.0.0.001")]
+[assembly: SecurityRules(SecurityRuleSet.Level1)]
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 

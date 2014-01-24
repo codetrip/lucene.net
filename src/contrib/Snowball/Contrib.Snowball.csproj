@@ -156,6 +156,9 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\..\..\..\..\Repositories\Marketplace\src\Marketplace.Raven\bin\Lucene.Net.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
@@ -240,12 +243,6 @@
     <Content Include="SF\Snowball\Package.html" />
     <Content Include="Xdocs\Index.xml" />
     <Content Include="Xdocs\Stylesheets\Project.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\core\Lucene.Net.csproj">
-      <Project>{5D4AD9BE-1FFB-41AB-9943-25737971BF57}</Project>
-      <Name>Lucene.Net</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0">

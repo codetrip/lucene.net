@@ -43,6 +43,10 @@ namespace Lucene.Net.Analysis.Snowball
         private readonly Version matchVersion;
 
         /// <summary>Builds the named analyzer with no stop words. </summary>
+        public SnowballAnalyzer(Version matchVersion) : this(matchVersion, "English")
+        {}
+
+        /// <summary>Builds the named analyzer with no stop words. </summary>
         public SnowballAnalyzer(Version matchVersion, System.String name)
         {
             this.name = name;
